@@ -1,0 +1,36 @@
+.page-content h4{
+    margin-top:-25px;
+}
+.page-content .form{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-content .form input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    margin-right: 15px;
+    width: 100%;
+    font-size: 18px;
+    color: dimgray;
+}
+
+.page-content .form button{
+    background-color: #5f801a;
+    padding: 10px 15px;
+    color: #fafafa;
+    border-radius: 5px;
+    border: none;
+    border-color: 1px solid #fafafa;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.page-content .form button:hover{
+    background-color: #698a21;
+}

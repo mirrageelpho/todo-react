@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+}
+ul li{
+    background-color: #e0e0e0;
+    padding:15px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #686767
+}
+ul li:hover{
+    box-shadow: 0 0 3px #3b3b3b;
+}
+ul .complete{
+    background-color: #8a8d8518;
+    font-style: italic;
+    text-decoration:line-through;
+    color: #54614c3f;
+
+}
+ul .complete:hover{
+    box-shadow: 0 0 2px #3b3b3b;
+    background-color: #8a8d8518;
+}
